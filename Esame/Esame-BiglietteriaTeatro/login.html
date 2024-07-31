@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teatro - Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="spettacoli.html">Spettacoli</a>
+        <a href="prenotazioni.html">Prenotazioni</a>
+        <a href="login.html" onclick="showLogin">Login</a>
+        <a href="#" id="logout-link" style="display: none;">Logout</a>
+    </nav>
+
+    <div id="content">
+        <h1>Accedi al Teatro</h1>
+        <form id="login-form">
+            <label for="codice-cliente">Codice Cliente:</label>
+            <input type="text" id="codice-cliente" required>
+            <button type="submit">Accedi</button>
+        </form>
+        <p id="login-error" style="display: none; color: red;">Codice cliente non valido. Riprova.</p>
+    </div>
+
+    <script src="js/api.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

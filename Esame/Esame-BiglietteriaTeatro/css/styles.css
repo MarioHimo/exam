@@ -1,0 +1,133 @@
+/* Impostazioni generali */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Colore del testo */
+    background-color: #333; /* Colore di sfondo di fallback */
+    background-image: url('../images/Sipario-1-300x275.jpg'); /* Percorso dell'immagine di sfondo */
+    background-size: cover; /* Copre tutta la pagina */
+    background-position: center; /* Centra l'immagine */
+    background-attachment: fixed; /* Fissa l'immagine di sfondo rispetto alla finestra */
+    background-repeat: no-repeat; /* Non ripete l'immagine */
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.7); /* Sfondo semi-trasparente per la navbar */
+    padding: 10px;
+    text-align: center;
+    position: relative; /* Posizione relativa per la navbar */
+    z-index: 10; /* Assicurati che la navbar sia sopra l'immagine di sfondo */
+}
+
+nav a {
+    color: #f0f0f0; /* Colore dei link */
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #555; /* Colore di sfondo al passaggio del mouse */
+    border-radius: 5px;
+}
+
+#content {
+    
+    padding: 50px;
+    text-align: center;
+    min-height: 400px; /* Altezza minima del contenuto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 5; /* Assicurati che il contenuto sia sopra l'immagine di sfondo */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ffcc00; /* Colore del titolo */
+}
+
+p {
+    font-size: 1.2em;
+    color: #ffcc00; /* Colore del testo */
+}
+
+button {
+    background-color: #ffcc00; /* Colore di sfondo del pulsante */
+    border: none;
+    color: #333; /* Colore del testo del pulsante */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6b800; /* Colore del pulsante al passaggio del mouse */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+
+/* Aggiungi queste regole alla fine del tuo file CSS */
+/* CSS per la pagina degli spettacoli */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+#content {
+    padding: 20px;
+}
+
+.teatro, .spettacolo, .replica {
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.teatro h2 {
+    margin: 0 0 10px;
+}
+
+.spettacolo h4 {
+    margin: 0 0 10px;
+}
+
+.replica {
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+
+
